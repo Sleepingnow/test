@@ -7,7 +7,7 @@ Stack::Stack()//类外定义的构造函数
 	stacksize = 0;
 }
 
-Stack::~Stack()
+Stack::~Stack() //析构函数
 {
 	cout << "析构函数执行" << endl;
 }
@@ -47,7 +47,7 @@ int Stack::size()
 	return stacksize;
 }
 
-int Stack::getTop(char& item)
+int Stack::getTop(char& item) //得到栈顶的元素，int类型（即ASCII码）
 {
 	int ltop = top - 1;
     item = items[ltop];

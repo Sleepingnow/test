@@ -80,7 +80,7 @@ int main()
 			cout << e;
 	}
 	cout << endl;
-	delete s;
+	delete s; //Îö¹¹º¯ÊıÖ´ĞĞ
 	system("pause");
 	return 0;
 }
