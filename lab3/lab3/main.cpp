@@ -44,7 +44,7 @@ int main()
 		*c3 = *c1 / *c2;
 		break;
 	}
-	cout << "c3 = "; c3->display(); //输出计算结果
+	cout << "result = "; c3->display(); //输出计算结果
 	delete c1, c2, c3; //销毁对象
 	system("pause");
 	return 0;
